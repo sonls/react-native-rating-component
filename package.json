@@ -1,6 +1,6 @@
 {
   "name": "react-native-rating-component",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "test",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -40,24 +40,25 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/sonls/react-native-rating-component/react-native-rating-component",
+  "repository": "https://github.com/sonls/react-native-rating-component",
   "author": "Le Si Son <sison@evol.vn> (https://github.com/sonls/react-native-rating-component)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sonls/react-native-rating-component/react-native-rating-component/issues"
+    "url": "https://github.com/sonls/react-native-rating-component/issues"
   },
-  "homepage": "https://github.com/sonls/react-native-rating-component/react-native-rating-component#readme",
+  "homepage": "https://github.com/sonls/react-native-rating-component#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@evilmartians/lefthook": "^1.2.2",
     "@commitlint/config-conventional": "^17.0.2",
+    "@evilmartians/lefthook": "^1.2.2",
     "@react-native-community/eslint-config": "^3.0.2",
     "@release-it/conventional-changelog": "^5.0.0",
     "@types/jest": "^28.1.2",
     "@types/react": "~17.0.21",
     "@types/react-native": "0.70.0",
+    "@types/react-native-vector-icons": "^6.4.13",
     "commitlint": "^17.0.2",
     "del-cli": "^5.0.0",
     "eslint": "^8.4.1",
@@ -73,7 +74,8 @@
     "typescript": "^4.5.2"
   },
   "resolutions": {
-    "@types/react": "17.0.21"
+    "@types/react": "*",
+    "@types/react-dom": "*"
   },
   "peerDependencies": {
     "react": "*",
@@ -155,5 +157,8 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "react-native-vector-icons": "^9.2.0"
   }
 }
