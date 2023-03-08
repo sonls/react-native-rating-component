@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "react-native-rating-component": ["./src/index"]
+      "react-native-rating-component-bic": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

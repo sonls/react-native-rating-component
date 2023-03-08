@@ -7,7 +7,7 @@
 
 import React, {useState} from 'react';
 import {StyleSheet, View} from 'react-native';
-import Rating from 'react-native-rating-component';
+import Rating from 'react-native-rating-component-bic';
 
 function App(): JSX.Element {
   const [activeIndexState, setActiveIndexState] = useState(0);
